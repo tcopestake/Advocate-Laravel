@@ -25,3 +25,4 @@ Pass the class resolver instance to Advocate:
 ## Planned improvements
 
 * Error handling / exceptions.
+* Controller/model/generic resolvers
