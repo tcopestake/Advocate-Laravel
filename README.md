@@ -1,6 +1,6 @@
 # Advocate AOP / Laravel Class Resolver
 
-This extension enables Advocate AOP to locate classes within Laravel, for the purpose of joining aspects to any Laravel class. As this involves interaction with the Composer autoloader, it's theoretically possible (though not intended) to join aspects to any class loaded via Composer.
+This extension enables [Advocate AOP](https://github.com/tcopestake/Advocate-AOP) to locate classes within Laravel, for the purpose of joining aspects to any Laravel class. As this involves interaction with the Composer autoloader, it's theoretically possible (though not intended) to join aspects to any class loaded via Composer.
 
 #### Requirements
 
