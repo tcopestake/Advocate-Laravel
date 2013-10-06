@@ -1,0 +1,7 @@
+{
+    "name": "tcopestake/advocate-laravel",
+    "description": "A Laravel class resolver for Advocate AOP",
+    "autoload": {
+        "psr-0": {"Advocate": "src/"}
+    }
+}
