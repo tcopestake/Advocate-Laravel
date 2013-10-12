@@ -7,18 +7,11 @@ class CoreClassResolver implements \Advocate\Interfaces\ClassResolver\ClassResol
     protected $composerLoader;
 
     public function resolve($class)
-    {echo 1;
-        var_dump($this->composerLoader);
-        exit;
-        
+    {
         /* Try Composer */
         
         if ($this->composerLoader instanceof \Composer\Autoload\ClassLoader) {
-            echo 1;
-            exit;
             if (($file = $this->composerLoader->findFile($class))) {
-                echo $file;
-                exit;
                 return $file;
             }
         }
